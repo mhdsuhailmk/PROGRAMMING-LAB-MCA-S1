@@ -1,0 +1,5 @@
+a=input("Enter the list words:").split(" ")
+print("The list is:",a)
+lon=max(a,key=len)
+print("Longest word is:",lon)
+print("Length of the longest word:",len(lon))
